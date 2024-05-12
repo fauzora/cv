@@ -14,6 +14,11 @@ body {
   gap: 8rem;
 }
 
+.experience-detail {
+  background-color: #0f0d16 !important;
+  gap: 8rem;
+}
+
 .profile-detail .profile-photo {
   width: 20rem;
   height: 20rem;
