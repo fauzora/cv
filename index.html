@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/responsive.css"
+    />
+  </head>
+  <body>
+    <!-- <section id="app">
+      <div class="page-container animated transition-puff-in">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container gap-3">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <svg
+                width="50px"
+                viewBox="0 0 804 772"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_57_33)">
+                  <path
+                    d="M322.612 2.91293C246.063 13.0303 175.05 47.7732 117.782 102.751C82.2756 136.921 61.0863 165.555 40.0879 206.979C15.8443 254.512 0 316.553 0 362.94V375.921H41.9968H83.9937V365.804C83.9937 355.114 88.1933 323.616 91.6294 308.153C95.8291 288.3 103.656 267.302 115.491 243.249C144.316 184.263 187.84 140.166 245.3 111.723C288.251 90.3427 326.43 81.1797 372.245 81.3706C403.933 81.3706 423.786 84.6158 454.329 94.5424C475.519 101.224 502.244 114.014 503.389 117.641C503.962 119.359 481.627 120.122 416.723 120.695C344.183 121.268 327.003 122.031 316.312 124.704C266.871 136.539 226.592 159.065 192.04 194.189C157.106 229.696 134.963 270.165 122.936 320.562L117.782 342.515L117.018 501.53L116.255 660.354L134.008 678.107C150.616 694.715 171.805 711.896 190.322 723.922L198.34 729.076L199.103 536.654C199.676 346.714 199.676 344.233 203.685 328.961C211.702 299.181 226.019 273.792 247.972 251.267C269.734 228.741 292.642 215.57 325.857 206.407L344.565 201.443L520.761 200.68C617.544 200.298 696.766 199.344 696.766 198.58C696.766 197.816 691.993 189.417 686.075 180.063C632.625 94.5424 553.976 34.7923 463.492 11.3123C420.732 0.240404 367.281 -3.0048 322.612 2.91293Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M378.925 234.659C310.394 242.295 258.089 285.056 238.236 349.578L233.846 363.513L233.273 554.599L232.7 745.875L249.308 752.747C267.634 760.383 293.214 768.21 306.386 770.31L314.976 771.455V708.269V645.083H408.514H502.053V604.04V562.998H408.514H314.976V500.003V437.008H559.321H803.666V394.056V351.105H772.359H741.244L739.907 337.17C737.235 311.017 729.026 277.229 717.573 247.831L711.846 232.75L552.067 232.941C464.255 233.132 386.37 233.896 378.925 234.659ZM649.805 319.989C652.287 328.389 656.295 350.151 655.532 351.487C654.196 353.396 328.338 353.396 328.338 351.487C328.338 349.196 333.874 341.369 340.556 334.306C346.855 327.434 358.309 320.753 367.472 318.462C370.717 317.698 435.239 317.126 511.025 316.935C640.642 316.744 648.851 316.935 649.805 319.989Z"
+                    fill="currentColor"
+                  />
+                </g>
+              </svg>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarNavAltMarkup"
+            >
+              <ul class="navbar-nav mr-auto pl-lg-4">
+                <li class="nav-item px-lg-2 active">
+                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <span class="d-inline-block d-lg-none icon-width">
+                      <i class="fas fa-home"></i>
+                    </span>
+                    Home
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center gap-2"
+                    href="https://www.instagram.com/fauzora_ig"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i
+                    ><span class="d-lg-none ml-3">Instagram</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center gap-2"
+                    href="https://www.linkedin.com/in/chairil-fauzi-firmansyah"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i
+                    ><span class="d-lg-none ml-3">Linkedin</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-center gap-2"
+                    href="https://github.com/fauzora"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i
+                    ><span class="d-lg-none ml-3">Github</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="content container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12">
+              <div class="hero-content">
+                <div class="row flex-v-align">
+                  <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="home-photo">
+                      <div
+                        class="hp-inner"
+                        style="
+                          background-position: calc(50% - 2.06349px)
+                            calc(50% + 9.18488px);
+                        "
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-7 col-lg-7">asdsad</div>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+
+          asdasd
+        </div>
+      </div>
+    </section> -->
+
+    <div class="cv_main_wrapper">
+      <!-- Loader Start -->
+      <div class="loader" style="display: none">
+        <div class="spinner" style="display: none">
+          <img
+            src="./Portfolio Responsive HTML Template_files/loader.gif"
+            alt="loader"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <!-- Loader End -->
+      <!-- Bottom To Top Start -->
+      <div class="cv_top_icon">
+        <a id="button" class="">
+          <img
+            src="./Portfolio Responsive HTML Template_files/gototop.svg"
+            class="img-fluid"
+          />
+        </a>
+      </div>
+      <!-- Bottom To Top End -->
+      <!-- Header Section Start -->
+      <!-- <div class="cv_header_wrapper">
+        <div class="cv_container container">
+          <div class="row">
+            <div class="col-12">
+              <div class="cv_navbar gap-4">
+                <div class="cv_logo">
+                  <a
+                    href="https://kamleshyadav.com/html/portfolio/html/bootstrap5/new_dark/index.html"
+                  >
+                    <svg
+                      width="50px"
+                      viewBox="0 0 804 772"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_57_33)">
+                        <path
+                          d="M322.612 2.91293C246.063 13.0303 175.05 47.7732 117.782 102.751C82.2756 136.921 61.0863 165.555 40.0879 206.979C15.8443 254.512 0 316.553 0 362.94V375.921H41.9968H83.9937V365.804C83.9937 355.114 88.1933 323.616 91.6294 308.153C95.8291 288.3 103.656 267.302 115.491 243.249C144.316 184.263 187.84 140.166 245.3 111.723C288.251 90.3427 326.43 81.1797 372.245 81.3706C403.933 81.3706 423.786 84.6158 454.329 94.5424C475.519 101.224 502.244 114.014 503.389 117.641C503.962 119.359 481.627 120.122 416.723 120.695C344.183 121.268 327.003 122.031 316.312 124.704C266.871 136.539 226.592 159.065 192.04 194.189C157.106 229.696 134.963 270.165 122.936 320.562L117.782 342.515L117.018 501.53L116.255 660.354L134.008 678.107C150.616 694.715 171.805 711.896 190.322 723.922L198.34 729.076L199.103 536.654C199.676 346.714 199.676 344.233 203.685 328.961C211.702 299.181 226.019 273.792 247.972 251.267C269.734 228.741 292.642 215.57 325.857 206.407L344.565 201.443L520.761 200.68C617.544 200.298 696.766 199.344 696.766 198.58C696.766 197.816 691.993 189.417 686.075 180.063C632.625 94.5424 553.976 34.7923 463.492 11.3123C420.732 0.240404 367.281 -3.0048 322.612 2.91293Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M378.925 234.659C310.394 242.295 258.089 285.056 238.236 349.578L233.846 363.513L233.273 554.599L232.7 745.875L249.308 752.747C267.634 760.383 293.214 768.21 306.386 770.31L314.976 771.455V708.269V645.083H408.514H502.053V604.04V562.998H408.514H314.976V500.003V437.008H559.321H803.666V394.056V351.105H772.359H741.244L739.907 337.17C737.235 311.017 729.026 277.229 717.573 247.831L711.846 232.75L552.067 232.941C464.255 233.132 386.37 233.896 378.925 234.659ZM649.805 319.989C652.287 328.389 656.295 350.151 655.532 351.487C654.196 353.396 328.338 353.396 328.338 351.487C328.338 349.196 333.874 341.369 340.556 334.306C346.855 327.434 358.309 320.753 367.472 318.462C370.717 317.698 435.239 317.126 511.025 316.935C640.642 316.744 648.851 316.935 649.805 319.989Z"
+                          fill="white"
+                        />
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+
+                <div
+                  class="navbar-content d-flex align-items-center justify-content-between w-100"
+                >
+                  <ul class="mr-auto pl-lg-4">
+                    <li class="nav-item px-lg-2 active">
+                      <a
+                        class="nav-link d-flex align-items-center gap-2"
+                        href="#"
+                      >
+                        <span class="d-inline-block d-lg-none icon-width">
+                          <i class="fas fa-home"></i>
+                        </span>
+                        Home
+                      </a>
+                    </li>
+                  </ul>
+
+                  <ul class="d-flex gap-2 ml-auto mt-3 mt-lg-0">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center gap-2"
+                        href="https://www.instagram.com/fauzora_ig"
+                        target="_blank"
+                      >
+                        <i class="fab fa-instagram"></i
+                        ><span class="d-lg-none ml-3">Instagram</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center gap-2"
+                        href="https://www.linkedin.com/in/chairil-fauzi-firmansyah"
+                        target="_blank"
+                      >
+                        <i class="fab fa-linkedin"></i
+                        ><span class="d-lg-none ml-3">Linkedin</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center gap-2"
+                        href="https://github.com/fauzora"
+                        target="_blank"
+                      >
+                        <i class="fab fa-github"></i
+                        ><span class="d-lg-none ml-3">Github</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container gap-3">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <svg
+              width="50px"
+              viewBox="0 0 804 772"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_57_33)">
+                <path
+                  d="M322.612 2.91293C246.063 13.0303 175.05 47.7732 117.782 102.751C82.2756 136.921 61.0863 165.555 40.0879 206.979C15.8443 254.512 0 316.553 0 362.94V375.921H41.9968H83.9937V365.804C83.9937 355.114 88.1933 323.616 91.6294 308.153C95.8291 288.3 103.656 267.302 115.491 243.249C144.316 184.263 187.84 140.166 245.3 111.723C288.251 90.3427 326.43 81.1797 372.245 81.3706C403.933 81.3706 423.786 84.6158 454.329 94.5424C475.519 101.224 502.244 114.014 503.389 117.641C503.962 119.359 481.627 120.122 416.723 120.695C344.183 121.268 327.003 122.031 316.312 124.704C266.871 136.539 226.592 159.065 192.04 194.189C157.106 229.696 134.963 270.165 122.936 320.562L117.782 342.515L117.018 501.53L116.255 660.354L134.008 678.107C150.616 694.715 171.805 711.896 190.322 723.922L198.34 729.076L199.103 536.654C199.676 346.714 199.676 344.233 203.685 328.961C211.702 299.181 226.019 273.792 247.972 251.267C269.734 228.741 292.642 215.57 325.857 206.407L344.565 201.443L520.761 200.68C617.544 200.298 696.766 199.344 696.766 198.58C696.766 197.816 691.993 189.417 686.075 180.063C632.625 94.5424 553.976 34.7923 463.492 11.3123C420.732 0.240404 367.281 -3.0048 322.612 2.91293Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M378.925 234.659C310.394 242.295 258.089 285.056 238.236 349.578L233.846 363.513L233.273 554.599L232.7 745.875L249.308 752.747C267.634 760.383 293.214 768.21 306.386 770.31L314.976 771.455V708.269V645.083H408.514H502.053V604.04V562.998H408.514H314.976V500.003V437.008H559.321H803.666V394.056V351.105H772.359H741.244L739.907 337.17C737.235 311.017 729.026 277.229 717.573 247.831L711.846 232.75L552.067 232.941C464.255 233.132 386.37 233.896 378.925 234.659ZM649.805 319.989C652.287 328.389 656.295 350.151 655.532 351.487C654.196 353.396 328.338 353.396 328.338 351.487C328.338 349.196 333.874 341.369 340.556 334.306C346.855 327.434 358.309 320.753 367.472 318.462C370.717 317.698 435.239 317.126 511.025 316.935C640.642 316.744 648.851 316.935 649.805 319.989Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNavAltMarkup"
+          >
+            <ul class="navbar-nav mr-auto pl-lg-4">
+              <li class="nav-item px-lg-2 active">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <span class="d-inline-block d-lg-none icon-width">
+                    <i class="fas fa-home"></i>
+                  </span>
+                  Home
+                </a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center gap-2"
+                  href="https://www.instagram.com/fauzora_ig"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i
+                  ><span class="d-lg-none ml-3">Instagram</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center gap-2"
+                  href="https://www.linkedin.com/in/chairil-fauzi-firmansyah"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i
+                  ><span class="d-lg-none ml-3">Linkedin</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center gap-2"
+                  href="https://github.com/fauzora"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i
+                  ><span class="d-lg-none ml-3">Github</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header Section End -->
+      <section class="cv_banner_wrapper">
+        <div class="cv_container container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="cv_banner_text">
+                <h5>Web Developer</h5>
+                <h1>Hello!</h1>
+                <h1>
+                  I Am
+                  <span
+                    id="animate-profile-name"
+                    class="cv_profile_name"
+                  ></span>
+                </h1>
+                <!-- <a href="javascript:void(0);" class="cv_btn">Hire Me</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="web" class="project-content">
+        <!-- 1a1527 -->
+        <div class="container">
+          asdsadd
+        </div>
+      </section>
+    </div>
+
+    <!-- script section -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ityped@1.0.3/dist/index.min.js"></script>
+    <script src="./js/typed_anim.js"></script>
+  </body>
+</html>

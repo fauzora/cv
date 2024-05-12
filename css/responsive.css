@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  #web:before {
+    font-size: 100px;
+    right: -30px;
+    top: -90px;
+  }
+}
