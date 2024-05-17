@@ -1,0 +1,136 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #e9ecef;
+}
+
+.table .table {
+  background-color: #f8f9fe;
+}
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: #c1c2c3;
+}
+
+.table .thead-dark th {
+  color: #f8f9fe;
+  border-color: #1f3a68;
+  background-color: #172b4d;
+}
+
+.table-dark {
+  color: #f8f9fe;
+  background-color: #172b4d;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th {
+  border-color: #1f3a68;
+}
+
+.table-responsive {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.tablecard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bg-default {
+  background-color: transparent !important;
+}
+
+.shadow {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+
+.table thead th {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+.table td .progress {
+  width: 120px;
+  height: 3px;
+  margin: 0;
+}
+
+.table td,
+.table th {
+  white-space: nowrap;
+}
+
+.table.align-items-center td,
+.table.align-items-center th {
+  vertical-align: middle;
+}
+
+.table .thead-dark th {
+  color: black;
+  background-color: white;
+}
+
+.table-flush td,
+.table-flush th {
+  border-right: 0;
+  border-left: 0;
+}
+
+.table-flush tbody tr:first-child td,
+.table-flush tbody tr:first-child th {
+  border-top: 0;
+}
+
+.table-flush tbody tr:last-child td,
+.table-flush tbody tr:last-child th {
+  border-bottom: 0;
+}
+
+.tablecard .table {
+  margin-bottom: 0;
+}
+
+.tablecard .table td,
+.tablecard .table th {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
